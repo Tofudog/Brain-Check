@@ -27,6 +27,7 @@
                                 <connections>
                                     <action selector="clickButtonDown" destination="BYZ-38-t0r" eventType="touchDown" id="17Q-D3-yFD"/>
                                     <action selector="clickButtonUp" destination="BYZ-38-t0r" eventType="touchUpInside" id="HwY-4Z-yXb"/>
+                                    <action selector="clickButtonUp" destination="BYZ-38-t0r" eventType="touchDragOutside" id="RLn-gr-xNM"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-page-meme" translatesAutoresizingMaskIntoConstraints="NO" id="GQf-V5-SRs">
