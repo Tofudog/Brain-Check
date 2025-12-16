@@ -28,6 +28,7 @@
                                     <action selector="clickButtonDown" destination="BYZ-38-t0r" eventType="touchDown" id="17Q-D3-yFD"/>
                                     <action selector="clickButtonUp" destination="BYZ-38-t0r" eventType="touchUpInside" id="HwY-4Z-yXb"/>
                                     <action selector="clickButtonUp" destination="BYZ-38-t0r" eventType="touchDragOutside" id="RLn-gr-xNM"/>
+                                    <segue destination="vIg-YH-Bp3" kind="show" id="pUd-w1-f04"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-page-meme" translatesAutoresizingMaskIntoConstraints="NO" id="GQf-V5-SRs">
@@ -57,6 +58,16 @@
             </objects>
             <point key="canvasLocation" x="6.8702290076335872" y="103.52112676056339"/>
         </scene>
+        <!--Results Page-->
+        <scene sceneID="F6g-s3-fU0">
+            <objects>
+                <viewController id="vIg-YH-Bp3" customClass="ResultsPage" customModule="Brain_Check_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="CEM-dO-4Pq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BOr-1p-xhh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1263" y="104"/>
+        </scene>
     </scenes>
     <color key="tintColor" systemColor="systemPurpleColor"/>
     <resources>
@@ -67,7 +78,7 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.79607843137254897" green="0.18823529411764706" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="viewFlipsideBackgroundColor">
             <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
