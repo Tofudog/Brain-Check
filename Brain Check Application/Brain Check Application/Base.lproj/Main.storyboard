@@ -34,7 +34,7 @@
                                 <rect key="frame" x="78" y="213" width="236" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" text="You just heard something unintelligent and want to discover how many brain cells you lost... click on the button below" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JGs-pN-hab">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" editable="NO" text="You just heard something unintelligent and want to discover how many brain cells you lost... click on the button below" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGs-pN-hab">
                                 <rect key="frame" x="20" y="426" width="352" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="labelColor"/>
