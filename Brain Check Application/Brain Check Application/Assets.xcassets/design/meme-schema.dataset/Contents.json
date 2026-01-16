@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "meme-schema.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
