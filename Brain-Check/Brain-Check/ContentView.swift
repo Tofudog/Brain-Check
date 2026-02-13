@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  Brain-Check
+//
+//  Created by Caleb Jennings on 2/13/26.
+//
+
 import SwiftUI
 import Charts
 
